@@ -65,7 +65,7 @@ int parition(int *array, size_t low, int high)
 int temp;
 int temp2;
 
-	while (j < high - 1)
+	while (j <= high - 1)
 	{
 		if (array[j] <= pivot)
 		{
